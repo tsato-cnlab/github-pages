@@ -18,7 +18,7 @@ jobs:
     if: |
       !github.event.repository.is_template
     name: Start Exercise
-    uses: skills/exercise-toolkit/.github/workflows/start-exercise.yml@v0.6.0
+    uses: ./.github/workflows/ja-start-exercise.yml
     with:
       exercise-title: "GitHub Pages"
       intro-message: "GitHub Pages を使って、GitHub リポジトリからサイトやブログを作成しましょう。"
@@ -65,13 +65,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Get response templates
-        uses: actions/checkout@v4
-        with:
-          repository: skills/exercise-toolkit
-          path: exercise-toolkit
-          ref: v0.6.0
-
       - name: Build comment - add step content
         id: build-comment
         uses: skills/action-text-variables@v2
@@ -92,7 +85,7 @@ jobs:
       - name: Create comment - watching for progress
         run: |
           gh issue comment "$ISSUE_URL" \
-            --body-file "exercise-toolkit/markdown-templates/step-feedback/watching-for-progress.md"
+            --body-file ".github/ja-templates/step-feedback/watching-for-progress.md"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
