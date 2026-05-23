@@ -63,7 +63,7 @@ jobs:
             step_number: 3
             passed: ${{ !contains(steps.*.outcome, 'failure') }}
             results_table:
-              - description: "Looked for minima theme added to the configuration file"
+              - description: "設定ファイルに minima テーマが追加されている"
                 passed: ${{ steps.check-theme-minima.outcome == 'success' }}
 
       - name: Create comment - step results

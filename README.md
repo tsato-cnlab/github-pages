@@ -1,48 +1,46 @@
 # GitHub Pages
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+_GitHub Pages を使って、GitHub リポジトリからサイトやブログを作成しましょう。_
 
-## Welcome
+## ようこそ
 
-- **Who is this for**: Beginners, students, project maintainers, small businesses.
-- **What you'll learn**: How to build a GitHub Pages site.
-- **What you'll build**: We'll build a simple GitHub Pages site with a blog. We'll use [Jekyll](https://jekyllrb.com), a static site generator.
-- **Prerequisites**: If you need to learn about branches, commits, and pull requests, take [Introduction to GitHub](https://github.com/skills/introduction-to-github) first.
+- **対象者**: 初心者、学生、プロジェクトメンテナー、小規模ビジネス。
+- **学べること**: GitHub Pages サイトの作り方。
+- **作るもの**: ブログ付きのシンプルな GitHub Pages サイトを作成します。静的サイトジェネレーターである [Jekyll](https://jekyllrb.com) を使います。
+- **前提条件**: ブランチ、コミット、プルリクエストについて学ぶ必要がある場合は、先に [GitHub 入門](https://github.com/skills/introduction-to-github) を受講してください。
 
-- **How long**: This exercise takes less than one hour to complete.
+- **所要時間**: この演習は 1 時間未満で完了できます。
 
-In this exercise, you will:
+この演習では、次のことを行います。
 
-1. Enable GitHub Pages
-1. Configure your site
-1. Customize your home page
-1. Create a blog post
-1. Merge your pull request
+1. GitHub Pages を有効にする
+1. ホームページをカスタマイズする
+1. サイトを設定する
+1. ブログ記事を作成する
+1. プルリクエストをマージする
 
 
-### How to start this exercise
+### この演習の始め方
 
-Simply copy the exercise to your account, then give your favorite Octocat (Mona) **about 20 seconds** to prepare the first lesson, then **refresh the page**.
+演習を自分のアカウントにコピーします。その後、お気に入りの Octocat である Mona が最初のレッスンを準備するまで **約 20 秒** 待ち、**ページを再読み込み** してください。
 
 [![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=skills&template_name=github-pages&owner=%40me&name=skills-github-pages&description=Exercise:+Create+a+site+or+blog+from+your+GitHub+repositories+with+GitHub+Pages&visibility=public)
 
 <details>
-<summary>Having trouble? 🤷</summary><br/>
+<summary>うまくいきませんか？</summary><br/>
 
-When copying the exercise, we recommend the following settings:
+演習をコピーするときは、次の設定をおすすめします。
 
-- For owner, choose your personal account or an organization to host the repository.
+- owner には、リポジトリを置く個人アカウントまたは Organization を選びます。
+- プライベートリポジトリでは Actions の実行時間が消費されるため、パブリックリポジトリの作成をおすすめします。
 
-- We recommend creating a public repository, since private repositories will use Actions minutes.
+20 秒待っても演習の準備ができない場合は、[Actions](../../actions) タブを確認してください。
 
-If the exercise isn't ready in 20 seconds, please check the [Actions](../../actions) tab.
-
-- Check to see if a job is running. Sometimes it simply takes a bit longer.
-
-- If the page shows a failed job, please submit an issue. Nice, you found a bug! 🐛
+- ジョブが実行中かどうかを確認します。単に少し時間がかかっているだけの場合があります。
+- 失敗したジョブが表示されている場合は、issue を作成してください。バグを見つけてくれてありがとうございます！
 
 </details>
 
 ---
 
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+&copy; 2025 GitHub &bull; [行動規範](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT ライセンス](https://gh.io/mit)

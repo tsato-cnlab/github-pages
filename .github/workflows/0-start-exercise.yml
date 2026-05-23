@@ -1,4 +1,4 @@
-name: Step 0 # Start Exercise
+name: Step 0 # 演習を開始
 
 on:
   push:
@@ -21,7 +21,7 @@ jobs:
     uses: skills/exercise-toolkit/.github/workflows/start-exercise.yml@v0.6.0
     with:
       exercise-title: "GitHub Pages"
-      intro-message: "Create a site or blog from your GitHub repositories with GitHub Pages."
+      intro-message: "GitHub Pages を使って、GitHub リポジトリからサイトやブログを作成しましょう。"
 
   create_initial_files:
     name: Create initial files
@@ -42,7 +42,7 @@ jobs:
         run: |
           cat > index.md << EOF
           ---
-          title: Welcome to my blog!
+          title: 私のブログへようこそ！
           ---
           EOF
       - name: Commit files
@@ -51,7 +51,7 @@ jobs:
           add: |
             - _config.yml
             - index.md
-          message: 'Create config and homepages files'
+          message: '設定ファイルとホームページファイルを作成'
           default_author: github_actions
 
   post_next_step_content:
